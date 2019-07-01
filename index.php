@@ -69,7 +69,7 @@ else{
         <![endif]-->
 
     </head>
-    <body style="background: url(/assets/images/bg-caleb4.jpg) no-repeat;">
+    <body style="width:100%; background: url(/assets/images/bg-caleb4.jpg) no-repeat;">
         <div class="loader-bg"></div>
         <div class="loader">
             <div class="preloader-wrapper big active">
