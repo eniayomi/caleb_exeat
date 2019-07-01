@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_HOST','calebattendance.ciys6epraz4g.us-east-2.rds.amazonaws.com');
+define('DB_USER','admin');
+define('DB_PASS','calebuniversity');
 define('DB_NAME','caleb_exeat');
 // Establish database connection.
 try
