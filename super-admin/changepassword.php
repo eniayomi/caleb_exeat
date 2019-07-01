@@ -13,7 +13,7 @@ if(isset($_POST['change']))
 $password=md5($_POST['password']);
 $newpassword=md5($_POST['newpassword']);
 $username=$_SESSION['alogin'];
-    $sql ="SELECT Password FROM admin WHERE UserName=:username and Password=:password";
+    $sql ="SELECT Password FROM superadmin WHERE UserName=:username and Password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':username', $username, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
@@ -50,7 +50,7 @@ $error="Your current password is wrong";
         
         <!-- Styles -->
         <link type="text/css" rel="stylesheet" href="../assets/plugins/materialize/css/materialize.min.css"/>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet"> 
         <link href="../assets/css/alpha.min.css" rel="stylesheet" type="text/css"/>
         <link href="../assets/css/custom.css" rel="stylesheet" type="text/css"/>

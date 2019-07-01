@@ -33,7 +33,7 @@ $query->bindParam(':country',$country,PDO::PARAM_STR);
 $query->bindParam(':mobileno',$mobileno,PDO::PARAM_STR);
 $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 $query->execute();
-$msg="Employee record updated Successfully";
+$msg="Student record updated Successfully";
 }
 
     ?>
@@ -54,7 +54,7 @@ $msg="Employee record updated Successfully";
         
         <!-- Styles -->
         <link type="text/css" rel="stylesheet" href="../assets/plugins/materialize/css/materialize.min.css"/>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="../assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet"> 
         <link href="../assets/css/alpha.min.css" rel="stylesheet" type="text/css"/>
         <link href="../assets/css/custom.css" rel="stylesheet" type="text/css"/>
